@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react'; // Import useEffect and useState
+import React, { useEffect, useState } from 'react'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
@@ -8,7 +8,7 @@ const Footer = () => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true);
+    setIsClient(true); // This will ensure client-side rendering
   }, []);
 
   if (!isClient) {
