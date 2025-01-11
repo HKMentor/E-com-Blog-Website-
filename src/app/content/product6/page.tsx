@@ -87,7 +87,7 @@ export default function LipBalmBlog() {
           </a>
           <br />
           <a
-            href="/blogs"
+            href="/pages/blogs"
             className="inline-block bg-gray-500 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-gray-600 transition text-lg font-semibold"
           >
             Back to Blogs

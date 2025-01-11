@@ -49,10 +49,10 @@ const Navbar = () => {
                     <Link href="/pages/about" className="hover:text-gray-900 text-gray-700">About</Link>
                     <Link href="/pages/blogs" className="hover:text-gray-900 text-gray-700">Blogs</Link>
                     <Link href="/pages/contact" className="hover:text-gray-900 text-gray-700">Contact</Link>
-                    <div>
+                    <span>
                       <Button className="mx-1 text-xs bg-black text-white" variant="outline">Login</Button>
                       <Button className="mx-1 text-xs bg-black text-white" variant="outline">Sign up</Button>
-                    </div>
+                    </span>
                   </div>
                 </SheetDescription>
               </SheetHeader>

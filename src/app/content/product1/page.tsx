@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 export default function CoffeeSoapBlog() {
   return (
@@ -23,9 +23,9 @@ export default function CoffeeSoapBlog() {
             <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-2xl overflow-hidden shadow-lg">
               {/* Blog Image */}
               <Image
-                className="lg:h-[800px] md:h-[350px] w-full object-cover object-center"
+                className="lg:h-auto md:h-[350px] w-full object-cover object-center"
                 src="/images/co1.jpeg"
-                alt="Coffee Soap"
+                alt="Handmade Coffee Soap showcasing its rich texture and natural ingredients."
                 width={1000}
                 height={500}
               />
@@ -36,7 +36,7 @@ export default function CoffeeSoapBlog() {
                   NATURAL SKINCARE
                 </h2>
                 <p className="leading-relaxed text-lg text-gray-700 dark:text-gray-300 mb-6">
-                  Imagine starting your day with a product that not only wakes up your senses but also revitalizes your skin. Coffee Soap is crafted with premium coffee extracts, delivering natural exfoliation to remove impurities, dead skin cells, and excess oils. This soap works wonders in improving your skins texture, leaving it smooth, supple, and glowing with health.
+                  Imagine starting your day with a product that not only wakes up your senses but also revitalizes your skin. Coffee Soap is crafted with premium coffee extracts, delivering natural exfoliation to remove impurities, dead skin cells, and excess oils. This soap works wonders in improving your skin's texture, leaving it smooth, supple, and glowing with health.
                 </p>
                 <p className="leading-relaxed text-lg text-gray-700 dark:text-gray-300 mb-6">
                   The caffeine in coffee acts as a powerful antioxidant, shielding your skin from environmental damage and promoting a youthful glow. With each use, the soap not only cleanses but also hydrates, ensuring your skin feels fresh and nourished throughout the day.
@@ -47,7 +47,7 @@ export default function CoffeeSoapBlog() {
                 </h3>
                 <ul className="list-disc text-gray-700 dark:text-gray-300 text-lg ml-8 mb-6">
                   <li>
-                    <strong>Exfoliates Dead Skin Cells:</strong> Coffee granules in the soap gently remove buildup, unclog pores, and smooth the skins surface.
+                    <strong>Exfoliates Dead Skin Cells:</strong> Coffee granules in the soap gently remove buildup, unclog pores, and smooth the skin's surface.
                   </li>
                   <li>
                     <strong>Improves Blood Circulation:</strong> The massaging effect stimulates blood flow, reducing puffiness and giving your skin a natural, rosy glow.
@@ -84,7 +84,7 @@ export default function CoffeeSoapBlog() {
           </a>
           <br />
           <a
-            href="/blogs"
+            href="/pages/blogs"
             className="inline-block bg-gray-500 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-gray-600 transition text-lg font-semibold"
           >
             Back to Blogs

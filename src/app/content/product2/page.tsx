@@ -66,7 +66,7 @@ export default function RiceSoapBlog() {
                 </p>
 
                 <p className="leading-relaxed text-lg text-gray-700 dark:text-gray-300">
-                  Choose Rice Soap for a natural, chemical-free option that pampers your skin while embracing sustainable beauty. It,s more than just soap—it,s a commitment to flawless, glowing skin.
+                  Choose Rice Soap for a natural, chemical-free option that pampers your skin while embracing sustainable beauty. It's more than just soap—it's a commitment to flawless, glowing skin.
                 </p>
               </div>
             </div>
@@ -85,7 +85,7 @@ export default function RiceSoapBlog() {
           </a>
           <br />
           <a
-            href="/blogs"
+            href="/pages/blogs"
             className="inline-block bg-gray-500 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-gray-600 transition text-lg font-semibold"
           >
             Back to Blogs
