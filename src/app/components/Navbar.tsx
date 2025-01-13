@@ -43,8 +43,8 @@ const Navbar = () => {
             <SheetContent className="dark:bg-blue-300">
               <SheetHeader>
                 <SheetTitle className="font-bold text-2xl mb-4 text-black">HK_Blog</SheetTitle>
-                <SheetDescription>
-                  <div className="flex flex-col gap-6">
+                <SheetDescription className="flex flex-col gap-6">
+                
                     <Link href="/" className="hover:text-gray-900 text-gray-700">Home</Link>
                     <Link href="/pages/about" className="hover:text-gray-900 text-gray-700">About</Link>
                     <Link href="/pages/blogs" className="hover:text-gray-900 text-gray-700">Blogs</Link>
@@ -53,7 +53,6 @@ const Navbar = () => {
                       <Button className="mx-1 text-xs bg-black text-white" variant="outline">Login</Button>
                       <Button className="mx-1 text-xs bg-black text-white" variant="outline">Sign up</Button>
                     </span>
-                  </div>
                 </SheetDescription>
               </SheetHeader>
             </SheetContent>
